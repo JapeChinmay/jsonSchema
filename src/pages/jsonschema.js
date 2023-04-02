@@ -21,7 +21,7 @@ const Validator = Joi.object().keys({
   }),
 });
 
-export const jsonschema = () => {
+export const Jsonschema = () => {
   const [schema, setSchema] = useState({});
 
   const SchemaHandler = (e) => {
@@ -67,4 +67,4 @@ export const jsonschema = () => {
   );
 };
 
-export default jsonschema;
+export default Jsonschema;
